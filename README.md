@@ -14,6 +14,12 @@ informasi cuaca real-time.
 ## Tech Stack
 HTML, CSS, JavaScript (Fetch API), PHP, OpenWeatherMap API
 
+## Peran Saya
+Proyek individu. Saya mengerjakan seluruhnya sendiri: tampilan halaman
+(HTML, CSS), struktur halaman dengan PHP (header, navigasi, dan footer
+dipakai ulang di semua halaman), serta JavaScript untuk mengambil data
+cuaca dari OpenWeatherMap API.
+
 ## Cara Menjalankan
 Proyek ini memakai PHP, jadi perlu server lokal seperti XAMPP.
 
