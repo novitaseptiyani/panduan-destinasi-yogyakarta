@@ -27,6 +27,6 @@ Proyek ini memakai PHP, jadi perlu server lokal seperti XAMPP.
 
 ## Tampilan
 
-![Beranda](screenshots/beranda.png)
-![Halaman Wisata](screenshots/wisata.png)
-![Cuaca](screenshots/cuaca.png)
+![Beranda](screenshots/beranda.png.png)
+![Halaman Wisata](screenshots/wisata.png.png)
+![Cuaca](screenshots/cuaca.png.png)
