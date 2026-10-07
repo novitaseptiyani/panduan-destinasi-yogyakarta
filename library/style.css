@@ -1,0 +1,489 @@
+/*Header*/
+header {
+    background-color: #FFD700;
+    padding: 10px 0;
+    max-width: 100%;
+    margin: 0 auto;  
+    position: relative;
+    z-index: 10; 
+}
+
+header h3 {
+    font-size: 0.9em;
+    font-weight: bold;
+    transition: color 0.3s;
+    color: #6a4321;
+    margin: 10px 0; 
+    text-align: center; 
+    flex-direction: column; 
+}
+
+/*Logo dan Navigasi*/
+.logo-nav-container {
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;  
+    background-color: #6a4321;  
+    position: relative;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ffffff; 
+}
+
+/*Berada atau Index*/
+.welcome-section {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;  
+    align-items: center;  
+    text-align: center; 
+    background-color: #ba8353;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}  
+
+.welcome-text p {
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 15px;
+    margin: 0 10px;
+}
+
+.welcome-text h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.hero-section {
+    position: relative;
+    color: #fffffe;
+    text-align: center;
+}
+
+.hero-section h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-section .btn {
+    font-size: 1rem;
+}
+
+/*Wisata*/
+#wisata-populer h4 {
+    text-align: center;  /* Menempatkan judul di tengah */
+    font-weight: bold;
+    padding-top: 40px; 
+    color: #ffffff
+}
+
+#jadwal-transportasi h4 {
+    text-align: center;  
+    font-weight: bold;
+    margin-top: 30px;  
+    color: #ffffff
+}
+
+#jadwal-transportasi th {
+    background-color: #6a4321;
+    font-weight: bold;
+}
+
+#jadwal-transportasi tbody tr:nth-child(even) {
+    background-color: #6a4321;
+}
+
+#jadwal-transportasi tbody tr:hover {
+    background-color: #FFD700;
+} 
+
+/*Kuliner Khas*/
+#kuliner-khas h4 {
+    text-align: center;  
+    font-weight: bold;
+    padding-top: 40px;   
+    color: #ffffff
+}
+
+/*Peta dan Rekomendasi Hotel*/
+#peta h4 {
+    font-weight: bold;
+    text-align: center; 
+    padding-top: 40px;  
+    color: #ffffff
+}
+
+#map-container iframe {
+    border: 3px solid #ffffff;
+    border-radius: 8px;
+}
+
+#rekomendasi-hotel h4 {
+    text-align: center;  
+    font-weight: bold;
+    margin-top: 40px;  
+    margin-bottom: 30px;  
+    color: #ffffff
+}
+
+#cuaca h4 {
+    text-align: center;  
+    font-weight: bold;
+    margin-top: 40px;  
+    margin-bottom: 30px;  
+    color: #ffffff
+}
+
+.cuaca-card {
+    max-width: 500px; 
+    margin: 20px auto;   
+    align-items: center;  
+    background-color: #6a4321;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; 
+}
+
+.cuaca-details p {
+    color: #ffffff; 
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
+
+/*Budaya dan Acara*/
+#budaya h4 {
+    text-align: center;  
+    font-weight: bold;
+    padding-top: 40px; 
+    color: #ffffff
+}
+
+#kalender-acara h4 {
+    text-align: center;  
+    font-weight: bold;
+    margin-top: 30px;  
+    color: #ffffff
+}
+
+#kalender-acara th {
+    background-color: #6a4321;
+    font-weight: bold;
+}
+
+#kalender-acara tbody tr:nth-child(even) {
+    background-color: #6a4321;
+}
+
+#kalender-acara tbody tr:hover {
+    background-color: #FFD700;
+} 
+
+/*Galeri*/
+.gallery-section {
+    padding: 20px;
+    align-items: center;
+    background-color: #ba8353;
+}
+
+.carousel-item img {
+    width: 100%; 
+    object-fit: cover; /* Memastikan gambar tetap terpotong jika perlu agar memenuhi kontainer */
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.gallery-description {
+    margin: 15px 10px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+/*Tentang Kami*/
+.tentang-kami {
+    padding: 20px;
+    background-color: #ba8353;
+}
+
+.tentang-kami-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    gap: 20px;
+}
+
+.kolom-kiri {
+    flex: 1;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+.kolom-kanan {
+    flex: 1;
+    max-width: 100%;
+    color: #FFD700
+}
+
+.profil-container {
+    display: flex;
+    align-items: center;  
+    gap: 10px; 
+    background-color: #6a4321; 
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgb(220, 220, 220);
+}
+
+.profil-img {
+    width: 150px; 
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 50%; 
+}
+
+.profil-text h5 {
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+    color: #FFD700; 
+}
+
+.profil-text p {
+    font-size: 14px;
+    text-align: left;
+    margin-left: 15px;
+    color: #FFD700; 
+}
+
+.tujuan-text p {
+    font-size: 13px;
+    text-align: center;
+    margin: 15px;
+    color: #FFD700; 
+}
+
+.alamat-ikuti {
+    display: flex;  
+    align-items: left;  
+    font-size: 15px;
+    margin-bottom: 20px;  
+    flex: 1;
+    margin-top: 50px;
+    flex-direction: row; 
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.ikon-sosial {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.ikon-sosial a {
+    font-size: 25px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.ikon-sosial a:hover {
+    color: #FFD700;
+}
+
+.form-kontak {
+    background-color: #6a4321;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(220, 220, 220);
+}
+
+.form-kontak label {
+    font-size: 13px;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.form-kontak input, .form-kontak textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    width: 100%;  
+}
+
+.form-kontak input:focus, .form-kontak textarea:focus {
+    border-color: #FFD700;
+    box-shadow: 0 0 5px rgb(220, 220, 220);  
+}
+
+.form-kontak button {
+    background-color: #ba8353;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-kontak button:hover {
+    background-color: #FFD700;
+    transform: translateY(-3px); 
+    box-shadow: 0 4px 8px rgb(220, 220, 220);  
+}
+
+/*Footer*/
+footer {
+    background-color: #6a4321;
+    color: #FFD700;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.9em;
+    transition: color 0.3s;
+}
+
+footer p:hover {
+    color: #ffffff;
+}
+
+/*Card*/
+.card {
+    box-shadow: 0 4px 8px rgba(220, 220, 220);  
+    transition: transform 0.3s ease;
+    border-radius: 10px;  /* Memberikan sudut melengkung pada card */
+    overflow: hidden;  /* Memastikan tidak ada gambar yang keluar dari batas card */
+    height: auto; 
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    object-fit: cover;  /* Menjaga agar gambar tetap sesuai ukuran tanpa merusak aspek rasio */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; /* Membuat sudut gambar membulat */
+    width: 100%; /* Agar gambar menyesuaikan lebar card */
+    height: auto; /* Menghindari distorsi gambar */
+}
+
+.card-body {
+    text-align: center;  
+    background-color: #6a4321;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #FFD700;
+}
+
+.card-text {
+    font-size: 10px;
+    color: #ffffff;
+}
+
+/*Table*/
+.table {
+    width: 100%;
+    color: #ffffff
+}
+
+.th, .td {
+    text-align: center;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+/* Keseluruhan*/
+main {
+    background-color: #ba8353;
+}
+
+* {
+    font-family: 'Roboto', sans-serif; 
+    box-sizing: border-box;
+}
+
+/*Responsive*/
+@media (max-width: 768px) {
+    .logo-nav-container {
+        flex-direction: column; /* Mengubah menjadi kolom pada layar kecil */
+        align-items: center;
+    }
+
+    .logo img {
+        width: 80px;  /* Menyesuaikan ukuran logo pada layar kecil */
+    }
+
+    #peta, #rekomendasi-hotel {
+        width: 100%;
+    }
+
+    .tentang-kami-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .kolom-kiri, .kolom-kanan {
+        max-width: 100%;
+    }
+
+    .form-kontak {
+        width: 100%;
+    }
+
+    footer {
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        width: 100%; 
+        height: auto;
+        object-fit: cover;
+        padding-bottom: 10px; 
+    }
+}
