@@ -24,3 +24,9 @@ Proyek ini memakai PHP, jadi perlu server lokal seperti XAMPP.
    `ISI_API_KEY_KAMU` dengan API key tersebut.
 5. Jalankan Apache di XAMPP, lalu buka
    `http://localhost/panduan-destinasi-yogyakarta/`.
+
+## Tampilan
+
+![Beranda](screenshots/beranda.png)
+![Halaman Wisata](screenshots/wisata.png)
+![Cuaca](screenshots/cuaca.png)
